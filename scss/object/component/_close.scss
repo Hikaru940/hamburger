@@ -1,0 +1,19 @@
+.c-close {
+    font-size: 700%;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 17%;
+    color: #707070;
+    cursor: pointer;
+
+    @include breakpoint( tablet ) {
+        right: 58%;
+    
+    }
+
+    @include breakpoint( pc ) {
+        display: none;
+    
+    }
+}

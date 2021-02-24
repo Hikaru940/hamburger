@@ -1,0 +1,11 @@
+.p-form {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0 4rem;
+
+    @include breakpoint( pc ) {
+        padding: 0;
+        margin: 10rem 0 0 15rem ;
+    
+    }
+}

@@ -1,0 +1,20 @@
+.c-search {
+    width: 23rem;
+    height: 4.6rem;
+    background-image: url("../../../img/パス 270.png");
+    background-repeat: no-repeat;
+    background-position: 7% center;
+    border-radius: 10px;
+    font-size: 25px;
+    border-color: #707070;
+    border-width: 1px;
+
+    &.js-open {
+        background: rgba($color: black, $alpha: 0.4);
+    }
+
+    @include breakpoint( tablet ) {
+        width: 39.6rem;
+    
+    }
+}

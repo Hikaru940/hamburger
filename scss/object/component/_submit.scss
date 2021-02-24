@@ -1,0 +1,21 @@
+.c-submit {
+    width: 7.8rem;
+    height: 4.6rem;
+    font-size: 1.6rem;
+    color: #707070;
+    margin: 0 0 0 1rem;
+    border-radius: 10px;
+    border-color: #707070;
+    border-width: 1px;
+    background: linear-gradient(#F2EDE9, #DED8D3);
+    cursor: pointer;
+
+    &.js-open {
+        background: rgba($color: black, $alpha: 0.4);
+    }
+
+    @include breakpoint( tablet ) {
+        width: 13.6rem;
+    
+    }
+}
