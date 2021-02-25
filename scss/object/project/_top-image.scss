@@ -1,6 +1,10 @@
 .p-top-image {
     position: relative;
 
+    // @include breakpoint( pc ) {
+    
+    // }
+
     &__img {
         object-fit: cover;
         width: 100%;
@@ -8,7 +12,6 @@
         // background-size: cover;
 
         @include breakpoint( pc ) {
-            width: 81%;
             height: 530px;
             // background-position: left center;
 
@@ -37,5 +40,68 @@
     &--size {
         font-size: 36px;
         color: white;
+    }
+}
+
+// ____archive_____
+
+.p-top-image-archive {
+    position: relative;
+
+    
+    &__img {
+        object-fit: cover;
+        // object-position: 20% 50%;
+        width: 100%;
+        height: 285px;
+        
+
+        @include breakpoint( pc ) {
+            height: 239px;
+
+        
+        }
+    }
+
+    &__wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.6);
+        padding: 10.4rem 0 0 3.7rem;
+
+        @include breakpoint( tablet ) {
+            display: flex;
+            padding: 10.4rem 0 0 8.6rem;
+        
+        }
+
+        @include breakpoint( pc ) {
+            padding: 8rem 0 0 8.6rem;
+        
+        }
+    }
+
+    &__head {
+        font-size: 36px;
+        color: white;
+        font-family: Roboto;
+
+        @include breakpoint( tablet ) {
+            font-size: 6rem;
+        
+        }
+    }
+    
+    &__text {
+        color: white;
+        font-size: 1.6rem;
+
+        @include breakpoint( tablet ) {
+            padding: 4rem 0 0 2rem;
+        
+        }
     }
 }

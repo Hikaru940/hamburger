@@ -10,11 +10,10 @@
     overflow-y: auto;
 
     @include breakpoint( pc ) {
-        position: static;
-        left: 81%;
         position: absolute;
+        left: 81%;
         z-index: auto;
-        height: auto;
+        height: 2800px;
         overflow-y: visible;
     
     }
@@ -35,6 +34,11 @@
 
     &__burger {
         margin: 21.2rem 0 0 0;
+
+        @include breakpoint( pc ) {
+            margin: 10rem 0 0 0;
+        
+        }
     }
 
     &.js-open {

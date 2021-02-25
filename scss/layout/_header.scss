@@ -6,14 +6,16 @@
     }
     &__left {
         background-color: #FFF7EF;
+        width: 100vw;
         &.js-open {
         background: rgba($color: black, $alpha: 0.4);
         }
 
         @include breakpoint( pc ) {
             display: flex;
+            justify-content: space-between;
             height: 21.7rem;
-            // width: 82%;
+            width: 81%;
         
         }
     }
@@ -23,7 +25,9 @@
         text-align: center;
 
         @include breakpoint( pc ) {
-            padding: 6.5rem 0 0 3.3rem;
+            padding: 6rem 0 0 5rem;
+            // padding: 0 0 0 0;
+            // margin: 6rem 0 0 5rem;
         
         }
     }

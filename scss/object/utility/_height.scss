@@ -1,0 +1,13 @@
+.u-height-sidebar-archive {
+
+    @include breakpoint( pc ) {
+        height: 2500px;
+    }
+}
+
+.u-height-sidebar-search {
+
+    @include breakpoint( pc ) {
+        height: 3500px;
+    }
+}

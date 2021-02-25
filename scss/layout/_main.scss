@@ -1,0 +1,8 @@
+.l-main {
+    background-color: #FFFDFA;
+    
+    @include breakpoint( pc ) {
+        width: 80vw;
+    
+    }
+}

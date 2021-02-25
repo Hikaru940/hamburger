@@ -7,8 +7,18 @@
     }
 
     @include breakpoint( pc ) {
-        width: 81%;
-        padding: 10rem 9.2rem 0 9.1rem;
+        // padding: 10rem 7.2rem 0 7.1rem;
+        padding: 6rem 2rem 0 2rem;
+        margin-bottom: 8rem;
+    
+    }
+}
+
+.p-container-archive {
+    padding: 0 2rem 0;
+
+    @include breakpoint( pc ) {
+        padding: 0 4rem 0;
     
     }
 }

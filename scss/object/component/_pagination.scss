@@ -1,0 +1,80 @@
+.c-pagination-sp {
+    height: 11.4rem;
+
+    @include breakpoint( tablet ) {
+        display: none;
+    
+    }
+
+    &__list {
+        padding: 6rem 0 3rem;
+        color: #707070;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            display: inline-block;
+            font-size: 1.6rem;
+
+            a {
+                font-size: 1.6rem;
+            }
+        }
+
+        
+    }
+
+    
+}
+
+.c-pagination-desktop {
+    height: 17.1rem;
+    display: none;
+
+    @include breakpoint( tablet ) {
+        display: block;
+    
+    }
+
+    &__list {
+        padding: 10.6rem 0 0 0;
+        display: flex;
+        justify-content: center;
+        
+        li {
+            display: inline;
+            font-family: Roboto;
+            font-size: 1.6rem;
+            color: #707070;
+
+            a {
+                color: #707070;
+                display: block;
+            }
+        }
+
+        &__style {
+            padding: 0.4rem 1rem;
+            border: 1px solid #707070;
+            margin: 0 1.5rem 0 0;
+
+            &--current-page {
+                background-color: black;
+                margin-left: 1.5rem;
+                .color {
+                    color: white;
+                }
+            }
+            
+        }
+
+        &__page {
+            padding-top: 0.4rem;
+            margin-right: 1.5rem;
+        }
+
+        &__component {
+            padding-top: 0.4rem;
+        }
+    }
+}

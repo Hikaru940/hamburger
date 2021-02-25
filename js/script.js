@@ -1,5 +1,5 @@
 $(function() {
-    $('.p-menu').click(function() {
+    $('.c-menu').click(function() {
         $('.p-sidebar').addClass('js-open');
         $('body').addClass('js-open');
         $('.l-header__left').addClass('js-open');
