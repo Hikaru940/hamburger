@@ -1,0 +1,14 @@
+.p-container-card {
+    margin-bottom: 5rem;
+
+    @include breakpoint( tablet ) {
+        display: flex;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    @include breakpoint( pc ) {
+        width: 81%;
+        padding: 10rem 9.2rem 0 9.1rem;
+    
+    }
+}

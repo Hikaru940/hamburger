@@ -1,0 +1,124 @@
+.p-card-out {
+    padding: 2rem 2rem 0;
+    position: relative;
+    // background-image: url("../../../img/three-burgers-on-brown-wooden-tray-between-white-ceramic-3.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // // background-position: center center;
+    // width: 100%;
+    // height: 642px;
+    // // object-fit: cover;
+    // margin: 2rem 2rem 0;
+
+    
+    
+    &__img {
+        width: 100%;
+        height: 642px;
+        object-fit: cover;
+
+        @include breakpoint( pc ) {
+            height: 120rem;
+        
+        }
+    }
+    
+}
+
+.p-card-in {
+    padding: 2rem 2rem 0;
+    position: relative;
+    // background: url("../../../img/473d814b175bd517b56eb309f2958725.png");
+    // background-repeat: no-repeat;
+    // // background-position: center center;
+    // background-size: cover;
+    // height: 642px;
+    // margin: 2rem 2rem 0;
+    // object-fit: cover;
+
+
+
+    &__img {
+        width: 100%;
+        height: 642px;
+        object-fit: cover;
+
+        @include breakpoint( pc ) {
+            height: 120rem;
+        
+        }
+
+    }
+
+}
+.p-card__head {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    font-size: 41px;
+    font-family: Roboto;
+    color: #EAEAEA;
+
+}
+
+.p-card__line {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 34px;
+    height: 4px;
+    background-color: white;
+    top: 10rem;
+    left: 3rem;
+}
+
+.p-card__body1 {
+    position: absolute;
+    top: 317px;
+    left: 30px;
+    right: 30px;
+    background-color: rgba($color: white, $alpha: 0.7);
+    // width: 86vw;
+    height: 163px;
+
+
+    &__head {
+        font-size: 22px;
+        font-weight: normal;
+        padding: 2rem 0 2rem 1rem;
+
+    }
+
+    &__text {
+        font-size: 16px;
+        padding: 0 1rem 0 1rem;
+        color: #3C2A10;
+        overflow: hidden;
+        height: 71px;
+    }
+}
+
+.p-card__body2 {
+    position: absolute;
+    top: 489px;
+    left: 30px;
+    right: 30px;
+    background-color: rgba($color: white, $alpha: 0.7);
+    height: 163px;
+
+    &__head {
+        font-size: 22px;
+        font-weight: normal;
+        padding: 2rem 0 2rem 1rem;
+
+    }
+
+    &__text {
+        font-size: 16px;
+        padding: 0 1rem 0 1rem;
+        color: #3C2A10;
+        overflow: hidden;
+        height: 71px;
+
+    }
+}
