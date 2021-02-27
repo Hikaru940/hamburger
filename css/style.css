@@ -14,13 +14,6 @@ body {
 
 body.js-open {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  background: rgba(0, 0, 0, 0.4);
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
 }
 
 li {
@@ -277,6 +270,25 @@ h1, h2, h3, h4, h5 {
 
 .c-pagination-desktop__list__component {
   padding-top: 0.4rem;
+}
+
+.c-black-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: #000;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.js-black-bg {
+  opacity: .8;
+  visibility: visible;
 }
 
 .p-form {
@@ -792,7 +804,7 @@ h1, h2, h3, h4, h5 {
   padding: 3.5rem 4.2rem 0;
   background: rgba(0, 0, 0, 0.6);
   color: white;
-  z-index: 100;
+  z-index: 50;
 }
 
 @media (min-width: 1025px) {
@@ -870,6 +882,7 @@ h1, h2, h3, h4, h5 {
   padding: 2.6rem 0 0 0;
   height: 27.6rem;
   color: #3C2A10;
+  font-weight: 500;
 }
 
 @media (min-width: 600px) {
