@@ -127,6 +127,7 @@ h1, h2, h3, h4, h5 {
   font-size: 25px;
   border-color: #707070;
   border-width: 1px;
+  padding-left: 5rem;
 }
 
 .c-search.js-open {
@@ -135,6 +136,7 @@ h1, h2, h3, h4, h5 {
 
 @media (min-width: 600px) {
   .c-search {
+    padding-left: 7rem;
     width: 39.6rem;
   }
 }
