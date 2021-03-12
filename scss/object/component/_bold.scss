@@ -1,0 +1,16 @@
+.c-bold {
+    font-size: 1.6rem;
+    display: block;
+    margin: 3rem 0 0;
+    padding-bottom: 7rem;
+
+    @include breakpoint( tablet ) {
+        margin: 6rem 0 0;
+    
+    }
+
+    @include breakpoint( pc ) {
+        padding-bottom: 18rem;
+    
+    }
+}

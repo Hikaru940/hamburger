@@ -1,24 +1,32 @@
-// .p-quote {
-//     margin: 3rem 0 0 0;
-//     background-color: #F5F5F5;
-//     height: 61.7rem;
+.p-quote {
+    margin: 3rem 0 0 0;
+    background-color: #F5F5F5;
+    // height: 61.7rem;
 
-//     &__text {
-//         margin: 6rem 1.8rem 0 2rem;
-//         padding: 3rem 0 0 0;
-//         font-size: 1.6rem;
-//     }
+    &__text {
+        margin: 6rem 1.8rem 0 2rem;
+        padding: 3rem 0 0 0;
+        font-size: 1.6rem;
+        @include breakpoint( tablet ) {
+            padding: 5rem 3rem 0 3rem;
+        
+        }
+    }
 
-//     &__cite {
-//         display: block;
-//         // margin: 10rem 0 0 2rem;
-//         padding: 20rem 0 0 2rem;
-//         font-size: 1.6rem;
+    &__cite {
+        display: block;
+        margin: 10rem 0 0 2rem;
+        padding: 15rem 0 3rem 2rem;
+        font-size: 1.6rem;
 
-//         a {
-//             font-size: 1.6rem;
-//             text-decoration: underline;
-//             color: #4A6C9B;
-//         }
-//     }
-// }
+        @include breakpoint( tablet ) {
+            padding: 8rem 0 6rem 3rem;
+        
+        }
+        a {
+            font-size: 1.6rem;
+            text-decoration: underline;
+            color: #4A6C9B;
+        }
+    }
+}

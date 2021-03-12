@@ -1,24 +1,62 @@
-// .c-image-size-first {
-//     height: 12.4rem;
-//     object-fit: cover;
-//     width: 100%;
+.c-image-size-first {
+    height: 12.4rem;
+    object-fit: cover;
+    width: 100%;
 
-// }
+    @include breakpoint( tablet ) {
+        height: 26.4rem;
+    
+    }
 
-// .c-image-size-second, .c-image-size-third {
-//     height: 89px;
-//     width: 144px;
-//     object-fit: cover;
-// }
+    @include breakpoint( pc ) {
+        height: 50rem;
+    
+    }
 
-// .c-image-size-fourth {
-//     height: 166px;
-//     width: 267px;
-//     object-fit: cover;
-// }
+}
 
-// .c-image-size-group {
-//     height: 205px;
-//     width: 100%;
-//     object-fit: cover;
-// }
+.c-image-size-second, .c-image-size-third {
+    height: 89px;
+    width: 144px;
+    object-fit: cover;
+
+    @include breakpoint( tablet ) {
+        height: 189px;
+        width: 306px;
+    
+    }
+
+    @include breakpoint( pc ) {
+        height: 358px;
+        width: 45%;
+    
+    }
+}
+
+.c-image-size-fourth {
+    height: 166px;
+    width: 267px;
+    object-fit: cover;
+    
+    @include breakpoint( tablet ) {
+        height: 358px;
+        width: 581px;
+    
+    }
+}
+
+.c-image-size-group {
+    height: 205px;
+    width: 100%;
+    object-fit: cover;
+
+    @include breakpoint( tablet ) {
+        height: 205px;
+    
+    }
+
+    @include breakpoint( pc ) {
+        height: 257px ;
+    
+    }
+}

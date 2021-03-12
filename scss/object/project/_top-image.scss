@@ -105,115 +105,116 @@
         }
     }
 }
-// .p-top-image-single {
-//     position: relative;
+
+.p-top-image-single {
+    position: relative;
 
     
-//     &__img {
-//         object-fit: cover;
-//         // object-position: 20% 50%;
-//         width: 100%;             
-//         height: 225px;
+    &__img {
+        object-fit: cover;
+        // object-position: 20% 50%;
+        width: 100%;             
+        height: 225px;
 
-//         @include breakpoint( tablet ) {
-//             height: 500px;
+        @include breakpoint( tablet ) {
+            height: 500px;
         
-//         }
+        }
         
 
-//     }
+    }
 
-//     &__wrapper {
-//         position: absolute;
-//         top: 0;
-//         left: 0;
-//         width: 100%;
-//         height: 100%;
-//         // background: rgba($color: #000000, $alpha: 0.6);
-//         padding: 9rem 0 0 2rem;
+    &__wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // background: rgba($color: #000000, $alpha: 0.6);
+        padding: 9rem 0 0 2rem;
 
-//         @include breakpoint( tablet ) {
-//             // display: flex;
-//             padding: 20.8rem 0 0 8.6rem;
+        @include breakpoint( tablet ) {
+            // display: flex;
+            padding: 20.8rem 0 0 8.6rem;
         
-//         }
+        }
 
-//     }
+    }
 
-//     &__head {
-//         font-size: 36px;
-//         color: white;
-//         font-family: Roboto;
+    &__head {
+        font-size: 36px;
+        color: white;
+        font-family: Roboto;
 
-//         @include breakpoint( tablet ) {
-//             font-size: 6rem;
+        @include breakpoint( tablet ) {
+            font-size: 6rem;
         
-//         }
-//     }
+        }
+    }
     
-//     &__text {
-//         color: white;
-//         font-size: 1.6rem;
+    &__text {
+        color: white;
+        font-size: 1.6rem;
 
-//         @include breakpoint( tablet ) {
-//             padding: 4rem 0 0 2rem;
+        @include breakpoint( tablet ) {
+            padding: 4rem 0 0 2rem;
         
-//         }
-//     }
-// }
-// .p-top-image-page {
-//     position: relative;
+        }
+    }
+}
+.p-top-image-page {
+    position: relative;
 
     
-//     &__img {
-//         object-fit: cover;
-//         // object-position: 20% 50%;
-//         width: 100%;
-//         height: 225px;
+    &__img {
+        object-fit: cover;
+        // object-position: 20% 50%;
+        width: 100%;
+        height: 225px;
 
-//         @include breakpoint( tablet ) {
-//             height: 500px;
+        @include breakpoint( tablet ) {
+            height: 500px;
         
-//         }
+        }
         
 
-//     }
+    }
 
-//     &__wrapper {
-//         position: absolute;
-//         top: 0;
-//         left: 0;
-//         width: 100%;
-//         height: 100%;
-//         // background: rgba($color: #000000, $alpha: 0.6);
-//         padding: 9rem 0 0 2rem;
+    &__wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // background: rgba($color: #000000, $alpha: 0.6);
+        padding: 9rem 0 0 2rem;
 
-//         @include breakpoint( tablet ) {
-//             // display: flex;
-//             padding: 20.8rem 0 0 8.6rem;
+        @include breakpoint( tablet ) {
+            // display: flex;
+            padding: 20.8rem 0 0 8.6rem;
         
-//         }
+        }
 
-//     }
+    }
 
-//     &__head {
-//         font-size: 36px;
-//         color: white;
-//         font-family: Roboto;
+    &__head {
+        font-size: 36px;
+        color: white;
+        font-family: Roboto;
 
-//         @include breakpoint( tablet ) {
-//             font-size: 6rem;
+        @include breakpoint( tablet ) {
+            font-size: 6rem;
         
-//         }
-//     }
+        }
+    }
     
-//     &__text {
-//         color: white;
-//         font-size: 1.6rem;
+    &__text {
+        color: white;
+        font-size: 1.6rem;
 
-//         @include breakpoint( tablet ) {
-//             padding: 4rem 0 0 2rem;
+        @include breakpoint( tablet ) {
+            padding: 4rem 0 0 2rem;
         
-//         }
-//     }
-// }
+        }
+    }
+}

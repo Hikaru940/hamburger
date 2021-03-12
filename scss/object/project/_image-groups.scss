@@ -1,0 +1,14 @@
+.p-image-groups {
+    @include breakpoint( tablet ) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1.5rem;
+        // background-color: white;
+    }
+
+    @include breakpoint( pc ) {
+        grid-template-columns: 33% 33% 33%;
+        gap: 2rem;
+    
+    }
+}

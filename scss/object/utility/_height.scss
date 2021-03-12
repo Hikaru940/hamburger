@@ -12,3 +12,24 @@
     }
 }
 
+.u-height-sidebar-single-page {
+    @include breakpoint( pc ) {
+        height: 6750px;
+    
+    }
+
+    @media (min-width: 1125px) {
+        height: 6650px;
+    }
+
+    @media (min-width: 1170px) {
+        height: 6500px;
+    }
+}
+
+.u-height-caption-text {
+    @include breakpoint( tablet ) {
+        height: auto;
+    
+    }
+}

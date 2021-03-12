@@ -1,0 +1,22 @@
+.u-padding-caption-head {
+    @include breakpoint( tablet ) {
+        padding-top: 5rem;
+    
+    }
+}
+
+.u-padding-caption-text {
+    @include breakpoint( tablet ) {
+        padding-top: 5.5rem;
+    
+    }
+}
+
+.u-padding-ol {
+    padding-left: 4rem;
+}
+
+.u-padding-ul {
+    padding-left: 2rem;
+}
+

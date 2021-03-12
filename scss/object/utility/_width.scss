@@ -1,0 +1,8 @@
+.u-width-left {
+    width: 35vw;
+
+    @include breakpoint( pc ) {
+        width: 23vw;
+    
+    }
+}
