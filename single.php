@@ -1,66 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburger Single</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-<body>
-    <header class="l-header">
-        <div class="l-header__left">
-            <h1 class="l-header__left__head"><a href="front.html" class="l-header__left--color l-header__left--size">Hamburger</a></h1>
-            <form action="search.html" method="get" class="p-form">
-                <input type="search" class="c-search">
-                <input type="submit" value="検索" class="c-submit">
-            </form>
-        </div>
-        
-        <div class="l-header__right">
-            <button class="c-menu">Menu</button>
-            <div class="p-sidebar u-height-sidebar-single-page">
-                <h2 class="c-menu-pc">Menu</h2>
-                <span class="c-close">×</span>
-                <dl class="p-sidebar__burger">
-                    <dt><a href="#" class="u-sidebar-color">バーガー</a></dt>
-                    <dd><a href="#" class="u-sidebar-color">ハンバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">チーズバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">テリヤキバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">アボカドバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">フィッシュバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">ベーコンバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">チキンバーガー</a></dd>
-                </dl>
-    
-                <dl class="u-sidebar-margin">
-                    <dt><a href="#" class="u-sidebar-color">サイド</a></dt>
-                    <dd><a href="#" class="u-sidebar-color">ポテト</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">サラダ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">ナゲット</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">コーン</a></dd>
-                </dl>
-    
-                <dl class="u-sidebar-margin">
-                    <dt><a href="#" class="u-sidebar-color">ドリンク</a></dt>
-                    <dd><a href="#" class="u-sidebar-color">コーラ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">ファンタ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">オレンジ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">アップル</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">紅茶（Ice/Hot）</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">コーヒー（Ice/Hot）</a></dd>
-                </dl>
-            </div>
-        </div>
-        <div class="c-black-bg"></div>
-    </header>
+<?php get_header(); ?>
+    <?php get_sidebar(); ?>
 
-    <main class="l-main">
         <figure class="p-top-image-single">
-            <img src="img/single.png" alt="" class="p-top-image-single__img">
+            <img src="<?php bloginfo('template_url'); ?>/img/single.png" alt="" class="p-top-image-single__img">
             <div class="p-top-image-single__wrapper">
                 <h1 class="p-top-image-single__head">h1 チーズバーガー</h1>
             </div>
@@ -90,30 +32,30 @@
                 <cite class="p-quote__cite">出典元：<a href="#">〇〇〇〇〇〇〇〇〇〇〇〇</a></cite>
             </blockquote>
     
-            <img src="img/cooked-foods-3.png" alt="" class="u-margin-img c-image-size-first">
+            <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="u-margin-img c-image-size-first">
     
             <div class="u-flex u-margin-img">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-second u-margin-image-second">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-second u-margin-image-second">
                 <p class="u-font-image">  テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります</p>
             </div>
     
             <div class="u-flex u-margin-img">
                 <p class="u-font-image"> テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります</p>
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-third u-margin-image-third">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-third u-margin-image-third">
             </div>
     
-            <img src="img/cooked-foods-3.png" alt="" class="c-image-size-fourth u-margin-image-fourth">
+            <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-fourth u-margin-image-fourth">
     
             <div class="p-image-groups u-margin-image-groups">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
                 
             </div>
             
@@ -186,16 +128,4 @@
         </div>
 
         
-    </main>
-
-    <footer class="l-footer">
-        <img src="img/レイヤー -7@2x.png" alt=""  class="l-footer__img">
-        <div class="l-footer__wrap">
-            <h6 class="l-footer__wrap__head">ショップ情報｜ヒストリー</h6>
-            <p class="l-footer__wrap__text"><small>Copyright: RaiseTech</small></p>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>

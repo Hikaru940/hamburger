@@ -145,6 +145,12 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+@media (min-width: 1025px) {
+  .c-search {
+    width: 20vw;
+  }
+}
+
 .c-submit {
   width: 7.8rem;
   height: 4.6rem;
@@ -166,6 +172,12 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 600px) {
   .c-submit {
     width: 13.6rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .c-submit {
+    width: 7vw;
   }
 }
 
@@ -492,7 +504,7 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     left: 81%;
     z-index: auto;
-    height: 2800px;
+    height: 2840px;
     overflow-y: visible;
   }
 }

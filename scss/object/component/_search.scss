@@ -19,4 +19,9 @@
         width: 39.6rem;
     
     }
+
+    @include breakpoint( pc ) {
+        width: 20vw;
+    
+    }
 }

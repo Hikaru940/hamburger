@@ -1,68 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburger Archive</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-<body>
-    <header class="l-header">
-        <div class="l-header__left">
-            <h1 class="l-header__left__head"><a href="front.html" class="l-header__left--color l-header__left--size">Hamburger</a></h1>
-            <form action="search.html" method="get" class="p-form">
-                <input type="search" class="c-search">
-                <input type="submit" value="検索" class="c-submit">
-            </form>
-        </div>
-        
-        <div class="l-header__right">
-            <button class="c-menu">Menu</button>
-            <div class="p-sidebar u-height-sidebar-archive">
-                <h2 class="c-menu-pc">Menu</h2>
-                <span class="c-close">×</span>
-                <dl class="p-sidebar__burger">
-                    <dt><a href="#" class="u-sidebar-color">バーガー</a></dt>
-                    <dd><a href="#" class="u-sidebar-color">ハンバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">チーズバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">テリヤキバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">アボカドバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">フィッシュバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">ベーコンバーガー</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">チキンバーガー</a></dd>
-                </dl>
-    
-                <dl class="u-sidebar-margin">
-                    <dt><a href="#" class="u-sidebar-color">サイド</a></dt>
-                    <dd><a href="#" class="u-sidebar-color">ポテト</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">サラダ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">ナゲット</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">コーン</a></dd>
-                </dl>
-    
-                <dl class="u-sidebar-margin">
-                    <dt><a href="#" class="u-sidebar-color">ドリンク</a></dt>
-                    <dd><a href="#" class="u-sidebar-color">コーラ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">ファンタ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">オレンジ</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">アップル</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">紅茶（Ice/Hot）</a></dd>
-                    <dd><a href="#" class="u-sidebar-color">コーヒー（Ice/Hot）</a></dd>
-                </dl>
-            </div>
-        </div>
-        <div class="c-black-bg"></div>
-    </header>
+<?php get_header(); ?>
+    <?php get_sidebar(); ?>
 
-    <main class="l-main">
         <figure class="p-top-image-archive">
-            <img src="img/three-burgers-on-brown-wooden-tray-between-white-ceramic-6@2x.png" alt="" class="p-top-image-archive__img">
+            <img src="<?php bloginfo('template_url'); ?>/img/three-burgers-on-brown-wooden-tray-between-white-ceramic-6@2x.png" alt="" class="p-top-image-archive__img">
             <div class="p-top-image-archive__wrapper">
-                <h2 class="p-top-image-archive__head">Menu:</h2>
+                <h2 class="p-top-image-archive__head">Search:</h2>
                 <p class="p-top-image-archive__text">チーズバーガー</p>
             </div>
         </figure>
@@ -75,10 +17,10 @@
 
             <article class="p-card-article">
                 <figure class="p-card-article__img">
-                    <img src="img/e-1.png" alt="" class="p-card-article__img__size">
+                    <img src="<?php bloginfo('template_url'); ?>/img/e-1.png" alt="" class="p-card-article__img__size">
                 </figure>
                 <div class="p-card-article__detail">
-                    <h4 class="p-card-article__detail__tophead">チーズバーガー</h4>
+                    <h4 class="p-card-article__detail__tophead">見出しが入ります</h4>
                     <h5 class="p-card-article__detail__middlehead">小見出しが入ります</h5>
                     <p class="p-card-article__detail__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                     <div>
@@ -88,10 +30,10 @@
             </article>
             <article class="p-card-article">
                 <figure class="p-card-article__img">
-                    <img src="img/e-1.png" alt="" class="p-card-article__img__size">
+                    <img src="<?php bloginfo('template_url'); ?>/img/e-1.png" alt="" class="p-card-article__img__size">
                 </figure>
                 <div class="p-card-article__detail">
-                    <h4 class="p-card-article__detail__tophead">ダブルチーズバーガー</h4>
+                    <h4 class="p-card-article__detail__tophead">見出しが入ります</h4>
                     <h5 class="p-card-article__detail__middlehead">小見出しが入ります</h5>
                     <p class="p-card-article__detail__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                     <div>
@@ -101,10 +43,36 @@
             </article>
             <article class="p-card-article">
                 <figure class="p-card-article__img">
-                    <img src="img/e-1.png" alt="" class="p-card-article__img__size">
+                    <img src="<?php bloginfo('template_url'); ?>/img/e-1.png" alt="" class="p-card-article__img__size">
                 </figure>
                 <div class="p-card-article__detail">
-                    <h4 class="p-card-article__detail__tophead">スペシャルチーズバーガー</h4>
+                    <h4 class="p-card-article__detail__tophead">見出しが入ります</h4>
+                    <h5 class="p-card-article__detail__middlehead">小見出しが入ります</h5>
+                    <p class="p-card-article__detail__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    <div>
+                        <button class="p-card-article__detail__button"><a href="#">詳しく見る</a></button>
+                    </div>
+                </div>
+            </article>
+            <article class="p-card-article">
+                <figure class="p-card-article__img">
+                    <img src="<?php bloginfo('template_url'); ?>/img/e-1.png" alt="" class="p-card-article__img__size">
+                </figure>
+                <div class="p-card-article__detail">
+                    <h4 class="p-card-article__detail__tophead">見出しが入ります</h4>
+                    <h5 class="p-card-article__detail__middlehead">小見出しが入ります</h5>
+                    <p class="p-card-article__detail__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    <div>
+                        <button class="p-card-article__detail__button"><a href="#">詳しく見る</a></button>
+                    </div>
+                </div>
+            </article>
+            <article class="p-card-article">
+                <figure class="p-card-article__img">
+                    <img src="<?php bloginfo('template_url'); ?>/img/e-1.png" alt="" class="p-card-article__img__size">
+                </figure>
+                <div class="p-card-article__detail">
+                    <h4 class="p-card-article__detail__tophead">見出しが入ります</h4>
                     <h5 class="p-card-article__detail__middlehead">小見出しが入ります</h5>
                     <p class="p-card-article__detail__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                     <div>
@@ -148,16 +116,4 @@
             </div>
         </div>
         
-    </main>
-
-    <footer class="l-footer">
-        <img src="img/レイヤー -7@2x.png" alt=""  class="l-footer__img">
-        <div class="l-footer__wrap">
-            <h6 class="l-footer__wrap__head">ショップ情報｜ヒストリー</h6>
-            <p class="l-footer__wrap__text"><small>Copyright: RaiseTech</small></p>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>
