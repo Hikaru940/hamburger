@@ -38,7 +38,7 @@
         </div>
 
         <div class="p-map">
-            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/スクリーンショット 2020-02-10 11.47.42.png" alt="" class="p-map__img">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/screenshot 2020-02-10 11.47.42.png" alt="" class="p-map__img">
             <div class="p-map__wrap">
                 <h5 class="p-map__wrap__head">見出しが入ります</h5>
                 <span class="p-map__wrap__line"></span>

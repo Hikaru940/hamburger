@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
         <figure class="p-top-image-single">
-            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/マスクグループ 2.png" alt="" class="p-top-image-single__img">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/maskgroup 2.png" alt="" class="p-top-image-single__img">
             <div class="p-top-image-single__wrapper">
                 <h1 class="p-top-image-single__head"><?php the_title(); ?></h1>
             </div>
