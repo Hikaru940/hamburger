@@ -7,9 +7,10 @@
         <div class="p-container-card">
             <article class="p-card-out">
                 <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/three-burgers-on-brown-wooden-tray-between-white-ceramic-6@2x.png" alt="Take Out Image" class="p-card-out__img">
-                <h3 class="p-card__head">Take Out</h3>
+                <h3 class="p-card__head"><?php wp_nav_menu(array(
+                'theme_location' => 'take-out',
+                )); ?></h3>
                 <span class="p-card__line"></span>
-                <div class="p-container-card-body">
                 <div class="p-card__body1">
                     <h4 class="p-card__body1__head">小見出しが入ります</h4>
                     <p class="p-card__body1__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
@@ -18,11 +19,12 @@
                     <h4 class="p-card__body2__head">小見出しが入ります</h4>
                     <p class="p-card__body2__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                 </div>
-                </div>
             </article>
             <article class="p-card-in">
                 <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/473d814b175bd517b56eb309f2958725.png" alt="" class="p-card-in__img">
-                <h3 class="p-card__head">Eat In</h3>
+                <h3 class="p-card__head"><?php wp_nav_menu(array(
+                'theme_location' => 'eat-in',
+                )); ?></h3>
                 <span class="p-card__line"></span>
                 <div class="p-card__body1">
                     <h4 class="p-card__body1__head">小見出しが入ります</h4>
@@ -48,5 +50,5 @@
     <div class="l-main-right">
     <?php get_sidebar(); ?>
     </div>
-    
+
 <?php get_footer(); ?>

@@ -2,7 +2,25 @@
     background-color: #FFFDFA;
     
     @include breakpoint( pc ) {
-        width: 80vw;
-    
+        display: flex;
+        
     }
+
+    .l-main-left {
+
+        @include breakpoint( pc ) {
+            flex-basis: 80%;
+        
+        }
+    }
+
+    .l-main-right {
+
+        @include breakpoint( pc ) {
+            flex-basis: 20%;
+            margin-top: -21.7rem;
+        }
+    }
+
+
 }

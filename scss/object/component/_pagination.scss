@@ -78,3 +78,109 @@
         }
     }
 }
+
+.c-pagination {
+    display: flex;
+    height: 11.4rem;
+    @include breakpoint( tablet ) {
+        height: 17.1rem;
+        justify-content: center;
+    
+    }
+
+    &__prev-less {
+        padding: 6rem 0 3rem;
+        @include breakpoint( tablet ) {
+            padding: 10.6rem 0 0 0;
+
+        }
+        a {
+            font-size: 1.6rem;
+            color: #707070;
+
+        }
+    }
+    
+    &__prev {
+        padding: 6rem 0 3rem;
+        @include breakpoint( tablet ) {
+            display: none;
+
+        }
+        a {
+            font-size: 1.6rem;
+            color: #707070;
+
+        }
+    }
+    
+    &__body {
+        display: none;
+
+        @include breakpoint( tablet ) {
+            display: flex;
+            padding: 9.9rem 0 0 0;
+            margin: 0 0 3.7rem 0;
+        }
+
+        li {
+            display: inline;
+            font-family: Roboto;
+            font-size: 1.6rem;
+            color: #707070;
+            padding: 0.4rem 1rem;
+            border: 1px solid #707070;
+            margin: 0 1.5rem 0 0;
+
+            &:first-child {
+                margin-left: 1.5rem;
+            }
+            
+            a {
+                color: #707070;
+                display: block;
+                font-size: 1.6rem;
+                font-family: Roboto;
+                
+            }
+        }
+
+        .-current {
+            background-color: black;
+            // margin-left: 1.5rem;
+            color: white;
+
+        }
+    }
+
+    &__next {
+        padding: 6rem 0 0 0;
+        margin: 0 0 0 auto;
+        @include breakpoint( tablet ) {
+            display: none;
+
+        }
+        a {
+            font-size: 1.6rem;
+            color: #707070;
+            // text-align: right;
+
+        }
+    }
+
+    &__next-grater {
+        padding: 6rem 0 0 0;
+        @include breakpoint( tablet ) {
+            padding: 10.6rem 0 0 0;
+
+        }
+        a {
+            font-size: 1.6rem;
+            color: #707070;
+            // text-align: right;
+
+        }
+    }
+
+    
+}

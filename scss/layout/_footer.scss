@@ -19,6 +19,41 @@
             text-align: center;
         }
 
+        .menu {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            a {
+                color: white;
+                
+            }
+        }
+
+        .menu-item-460 {
+            padding-right: 1rem;
+            > a:hover {
+                opacity: 0.6;
+            }
+        }
+        .menu-item-459 {
+            padding-left: 1rem;
+            position: relative;
+            &::before {
+                position: absolute;
+                left: 0;
+                top: 5px;
+                content: "";
+                background-color: #fff;
+                width: 2px;
+                height: 20px;
+            }
+
+            > a:hover {
+                    opacity: 0.6;
+                }
+            
+        }
+
         &__text {
             width: 100%;
             font-size: 1.4rem;

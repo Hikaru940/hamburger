@@ -10,30 +10,39 @@
     overflow-y: auto;
 
     @include breakpoint( pc ) {
-        position: absolute;
-        left: 81%;
+        // position: absolute;
+        // left: 81%;
+        position: static;
+        width: 100%;
         z-index: auto;
-        height: 2840px;
+        height: auto;
+        min-height: 100%;
         overflow-y: visible;
     
     }
 
-    dt {
+    .menu-item-type-taxonomy > a {
         font-size: 2.4rem;
-        padding: 0 0 4.2rem 4.6rem;
+        padding: 0 0 4.2rem 0.6rem;
         font-weight: normal;
-
+        &:hover {
+            opacity: 0.6;
+        }
     }
 
-    dd {
+    .menu-item-type-post_type > a {
         font-size: 2.0rem;
-        padding: 0 0 2.8rem 6.6rem;
+        padding: 0 0 2.8rem 0;
         font-weight: normal;
+        &:hover {
+            opacity: 0.6;
+        }
+
         // font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', "Font Awesome 5 Free", "Font Awesome 5 Brands", 'sans-serif';
     }
 
-    &__burger {
-        margin: 21.2rem 0 0 0;
+    .menu {
+        margin: 12.2rem 0 0 0;
 
         @include breakpoint( pc ) {
             margin: 10rem 0 0 0;

@@ -1,10 +1,9 @@
 <?php get_header(); ?>
-    <?php get_sidebar(); ?>
 
         <figure class="p-top-image-single">
-            <img src="<?php bloginfo('template_url'); ?>/img/マスクグループ 2.png" alt="" class="p-top-image-single__img">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/マスクグループ 2.png" alt="" class="p-top-image-single__img">
             <div class="p-top-image-single__wrapper">
-                <h1 class="p-top-image-single__head">ショップについて</h1>
+                <h1 class="p-top-image-single__head"><?php the_title(); ?></h1>
             </div>
         </figure>
 
@@ -32,30 +31,30 @@
                 <cite class="p-quote__cite">出典元：<a href="#">〇〇〇〇〇〇〇〇〇〇〇〇</a></cite>
             </blockquote>
     
-            <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="u-margin-img c-image-size-first">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="u-margin-img c-image-size-first">
     
             <div class="u-flex u-margin-img">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-second u-margin-image-second">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-second u-margin-image-second">
                 <p class="u-font-image">  テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります</p>
             </div>
     
             <div class="u-flex u-margin-img">
                 <p class="u-font-image"> テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります</p>
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-third u-margin-image-third">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-third u-margin-image-third">
             </div>
     
-            <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-fourth u-margin-image-fourth">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-fourth u-margin-image-fourth">
     
             <div class="p-image-groups u-margin-image-groups">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
-                <img src="<?php bloginfo('template_url'); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/cooked-foods-3.png" alt="" class="c-image-size-group u-margin-image-group">
                 
             </div>
             
@@ -126,6 +125,10 @@
     
             <b class="c-bold">boldboldboldboldboldboldbold</b>
         </div>
+    </div>
+    <div class="l-main-right">
+    <?php get_sidebar(); ?>
+    </div>
 
         
 <?php get_footer(); ?>
