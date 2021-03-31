@@ -692,6 +692,7 @@ h1, h2, h3, h4, h5 {
   font-size: 2.4rem;
   padding: 0 0 4.2rem 0.6rem;
   font-weight: normal;
+  color: #707070;
 }
 
 .p-sidebar .menu-item-type-taxonomy > a:hover {
@@ -702,6 +703,7 @@ h1, h2, h3, h4, h5 {
   font-size: 2.0rem;
   padding: 0 0 2.8rem 0;
   font-weight: normal;
+  color: #707070;
 }
 
 .p-sidebar .menu-item-type-post_type > a:hover {
@@ -1723,8 +1725,4 @@ h1, h2, h3, h4, h5 {
     width: 23vw;
   }
 }
-/* .wp-caption .wp-caption-text .sticky .gallery-caption
-.bypostauthor .alignright .alignleft .aligncenter .screen-reader-text
- */
-
 /*# sourceMappingURL=style.css.map */
