@@ -27,6 +27,8 @@ function mytheme_setup() {
     ));
 
     add_theme_support( 'automatic-feed-links' );
+    add_theme_support( "custom-background");
+    add_theme_support( "custom-header");
 
 }
 add_action('after_setup_theme', 'mytheme_setup');
@@ -130,7 +132,12 @@ function mytheme_enqueue() {
 }
 add_action('wp_enqueue_scripts', 'mytheme_enqueue');
 
+function demo_script() {
+    if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'demo_script' );
 
-
-
+if ( ! isset( $content_width ) ) $content_width = 900;
     
