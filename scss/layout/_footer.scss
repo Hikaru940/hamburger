@@ -8,34 +8,38 @@
 
     &__wrap {
         width: 100vw;
-        position: absolute;
-        top: 0;
-        left: 0;
+        // position: absolute;
+        // top: 0;
+        // left: 0;
         color: white;
+        background-image: url("../img/layer.png");
+        background-repeat: repeat-y;
 
         &__head {
             font-size: 2rem;
-            margin: 3.9rem 0 0 0 ;
+            margin: 0;
+            padding: 3.9rem 0 0 0 ;
             text-align: center;
         }
 
-        .menu {
+        ul {
             display: flex;
             justify-content: center;
             padding-left: 0;
+            margin: 0;
             a {
                 color: white;
                 
             }
         }
 
-        .menu-item-460 {
+        li:first-child {
             padding-right: 1rem;
             > a:hover {
                 opacity: 0.6;
             }
         }
-        .menu-item-459 {
+        li:last-child {
             padding-left: 1rem;
             position: relative;
             &::before {
@@ -57,7 +61,8 @@
         &__text {
             width: 100%;
             font-size: 1.4rem;
-            margin: 3.5rem auto 3rem ;
+            margin: 3.5rem auto 0;
+            padding-bottom: 3rem;
             text-align: center;
 
             small {
